@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tweet Map</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"/>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <section id="container">
+            <div id="content">
+                <div class="left">
+                    <h1>Tweet Map</h1>
+                    <h3>About</h3>
+                    <p>Tweet Map allows you to enter in a term or hashtag and returns 20 of the most recent tweets which are plotted on the map. This can be used to see how different areas of the world are responding to or tweeting about different tags or trending topics.</p>
+                    <br>
+                    <p>Other usages may be for companies who want to see how a product is being received around the world. <br><br></p>
+                    <p><b>Limitations:</b> While the code itself can scale, I have limited the requested amount to 20 to limit Lambda costs.</p>
+                    <br>
+
+
+                    <h3>Search</h3>
+                    <form id="searchForm">
+                        <h4>Enter in your Keyword</h4>
+                        <input type="text" name="searchBoxText" value="" id="searchBoxText" placeholder="Enter your keyword">
+                        <br>
+                        <input type="button" id="submit" value="Submit">        
+                    </form>
+
+                    <p>This is a portfolio project by Kenneth Gargan.</p>
+                    <ul>
+                        <li><a href="https://kenneth.gargan.ie/" target="_blank">Github Project Link</a></li>
+                        <li><a href="https://github.com/kenneth-G" target="_blank">My Github</a></li>
+                        <li><a href="https://www.Kenneth.Gargan.ie" target="_blank">My Website</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+
+                    <section id="mapContainer">
+
+                    </section>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

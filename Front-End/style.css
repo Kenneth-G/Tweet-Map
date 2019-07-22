@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+p{
+    font-size: 1em;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+    background-color: #262626;
+}
+
+
+.leaflet-container {
+    background: #262626;
+}
+
+h1,h3,p{
+    color: #AAAAAA;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+#content h3{
+    padding-bottom:1%;
+}
+#mapContainer{
+    display: flex;
+    height:100%;
+    width: 100%;
+    text-align: center;
+}
+
+#container{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+#content{
+    display: flex;
+    height:100%;
+    width:100%;
+    flex-direction: row;
+}
+.left{
+    padding-top:1%;
+    padding-left:5%;
+    align-items: center;
+    width:50%;
+}
+.right{
+    width:100%
+}
+h3{
+    text-align: center;
+}
+
+form{
+    color: #AAAAAA;
+    text-align: center;
+}
+
+form #searchBoxText{
+    margin-top: 1em;
+    align-self: flex-start;
+    width:20em;
+}
+form h4{
+    margin-bottom: 0.5em;
+    margin-top:1em;
+}
+form input[type=button]{
+    margin-top:1.2em;
+    width:5em;
+    margin-bottom: 1.2em;
+}
+
+ul{
+    text-decoration: none;
+}
+
+ul a{
+    color: #AAAAAA;
+}
