@@ -20,18 +20,18 @@ The live version has a current cap of 20 but this is only a hard cap while the c
 - JavaScript.
 
 ### Back-End Technologies:
-- [AWS Lambda.](https://aws.amazon.com/lambda/)
-- [AWS API Gateway.](https://aws.amazon.com/api-gateway/)
+- [AWS Lambda.](https://aws.amazon.com/lambda/){:target="_blank"}
+- [AWS API Gateway.](https://aws.amazon.com/api-gateway/){:target="_blank"}
 
 ### Libaries Used:
-- [Leaflet.](https://leafletjs.com/) - Javascript Library for Interactive Maps.
-- [Tweepy.](https://tweepy.readthedocs.io/en/latest/) - Python Library for interacting with Twitters API.
-- [Geocoder.](https://geocoder.readthedocs.io/) - Python Library for interacting with OpenCage Geocoder.
-- [unittest](https://docs.python.org/3/library/unittest.html) - Python Library for testing code. (Locally)
+- [Leaflet.](https://leafletjs.com/){:target="_blank"} - Javascript Library for Interactive Maps.
+- [Tweepy.](https://tweepy.readthedocs.io/en/latest/){:target="_blank"} - Python Library for interacting with Twitters API.
+- [Geocoder.](https://geocoder.readthedocs.io/){:target="_blank"} - Python Library for interacting with OpenCage Geocoder.
+- [unittest](https://docs.python.org/3/library/unittest.html){:target="_blank"} - Python Library for testing code. (Locally)
 
 ### Services Used:
-- [Twitter API](https://developer.twitter.com/) - For getting Tweets
-- [OpenCage Geocoder](https://opencagedata.com/) - For checking users locations.
+- [Twitter API](https://developer.twitter.com/){:target="_blank"} - For getting Tweets
+- [OpenCage Geocoder](https://opencagedata.com/){:target="_blank"} - For checking users locations.
 
 ## How It Works.
 ### Front-End:
@@ -73,9 +73,9 @@ With each Tweet that comes in, the location is checked and if they have one we c
 ```python
 geocoder.geocode(tweet.user.location, limit = 1, min_confidence = 8, no_annotations = 1)
 ```
--limit = How many results we want returned (We only need 1)
--min_confidence = In cases where the location we give it isn't filled in correctly or it may not be an address, we can use the min_confidence parameter to filter those out. From testing this, 1 is too vague of an area while 10 needs to be an exact address. I've found 8 gives a bit of wiggle room in case the address isn't filled out exactly. 
--no_annotations = OpenCage can provide a lot more information about the address but we only just want the coordinates and nothing else.
+- limit = How many results we want returned (We only need 1)
+- min_confidence = In cases where the location we give it isn't filled in correctly or it may not be an address, we can use the min_confidence parameter to filter those out. From testing this, 1 is too vague of an area while 10 needs to be an exact address. I've found 8 gives a bit of wiggle room in case the address isn't filled out exactly. 
+- no_annotations = OpenCage can provide a lot more information about the address but we only just want the coordinates and nothing else.
 
 More information on OpenCage Parameters can be found [here](https://opencagedata.com/api#request)
 
