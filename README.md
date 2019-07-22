@@ -8,7 +8,7 @@ An app that allows users to search Twitter and display the Tweets on a map.
 * [How It Works](#how-it-works)
 * [Running The Code Yourself](#running-the-code-yourself)
 * [Testing The Code.](testing-the-code)
-* [## Thoughts on this project.](thoughts-on-this-project-&-what-i've-learned)
+* [Thoughts on this project.](thoughts-on-this-project-&-what-i've-learned)
 
 ## About.
 Tweet Map allows you to enter in a term or hashtag and returns x number of the most recent tweets which are plotted on the map. This can be used to see how different areas of the world are responding to or tweeting about different tags or trending topics.
@@ -30,8 +30,8 @@ The live version has a current cap of 20 but this is only a hard cap while the c
 - [unittest](https://docs.python.org/3/library/unittest.html) - Python Library for testing code. (Locally)
 
 ### Services Used:
--[Twitter API](https://developer.twitter.com/) - For getting Tweets
--[OpenCage Geocoder](https://opencagedata.com/) - For checking users locations.
+- [Twitter API](https://developer.twitter.com/) - For getting Tweets
+- [OpenCage Geocoder](https://opencagedata.com/) - For checking users locations.
 
 ## How It Works.
 ### Front-End:
