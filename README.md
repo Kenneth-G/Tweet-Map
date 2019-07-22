@@ -103,7 +103,7 @@ There are some slight changes between running it locally & running it via AWS.
 ### Prerequisites:
 * Python 3.7
 
-- Libraries: 
+Libraries: 
 You need to install the modules into your working directory as they'll be need to be included in a zip file if you want to use it on AWS
 
 * Tweepy
