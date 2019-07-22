@@ -1,5 +1,5 @@
 # Tweet-Map
-An app that allows users to search twitter and display the tweets on a map.
+An app that allows users to search Twitter and display the Tweets on a map.
 
 ## Table of contents
 * [About](#about)
