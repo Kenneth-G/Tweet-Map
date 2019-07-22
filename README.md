@@ -30,8 +30,8 @@ The live version has a current cap of 20 but this is only a hard cap while the c
 - [unittest](https://docs.python.org/3/library/unittest.html) - Python Library for testing code. (Locally)
 
 ### Services Used:
-- [Twitter API](https://developer.twitter.com/){:target="_blank"} - For getting Tweets
-- [OpenCage Geocoder](https://opencagedata.com/){:target="_blank"} - For checking users locations.
+- [Twitter API](https://developer.twitter.com/) - For getting Tweets
+- [OpenCage Geocoder](https://opencagedata.com/) - For checking users locations.
 
 ## How It Works.
 ### Front-End:
