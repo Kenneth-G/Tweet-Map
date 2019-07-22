@@ -18,16 +18,16 @@ The live version has a current cap of 20 but this is only a hard cap while the c
 ### Languages: 
 - Python 3.7.
 - JavaScript.
-<a href="http://example.com/" target="_blank">example</a>
+
 ### Back-End Technologies:
-- [AWS Lambda.](https://aws.amazon.com/lambda/){:target="_blank"}
-- [AWS API Gateway.](https://aws.amazon.com/api-gateway/){:target="_blank"}
+- [AWS Lambda.](https://aws.amazon.com/lambda/)
+- [AWS API Gateway.](https://aws.amazon.com/api-gateway/)
 
 ### Libaries Used:
-- [Leaflet.](https://leafletjs.com/){:target="_blank"} - Javascript Library for Interactive Maps.
-- [Tweepy.](https://tweepy.readthedocs.io/en/latest/){:target="_blank"} - Python Library for interacting with Twitters API.
-- [Geocoder.](https://geocoder.readthedocs.io/){:target="_blank"} - Python Library for interacting with OpenCage Geocoder.
-- [unittest](https://docs.python.org/3/library/unittest.html){:target="_blank"} - Python Library for testing code. (Locally)
+- [Leaflet.](https://leafletjs.com/) - Javascript Library for Interactive Maps.
+- [Tweepy.](https://tweepy.readthedocs.io/en/latest/) - Python Library for interacting with Twitters API.
+- [Geocoder.](https://geocoder.readthedocs.io/) - Python Library for interacting with OpenCage Geocoder.
+- [unittest](https://docs.python.org/3/library/unittest.html) - Python Library for testing code. (Locally)
 
 ### Services Used:
 - [Twitter API](https://developer.twitter.com/){:target="_blank"} - For getting Tweets
