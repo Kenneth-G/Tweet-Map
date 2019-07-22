@@ -13,6 +13,7 @@ An app that allows users to search Twitter and display the Tweets on a map.
 
 ## About.
 Tweet Map allows you to enter in a term or hashtag and returns x number of the most recent tweets which are plotted on the map. This can be used to see how different areas of the world are responding to or tweeting about different tags or trending topics.
+
 The live version has a current cap of 20 but this is only a hard cap while the code itself can scale.
 
 ## Technologies.
@@ -100,23 +101,23 @@ tweet_list.append({
 There are some slight changes between running it locally & running it via AWS.
 
 ### Prerequisites:
-⋅⋅* Python 3.7
+* Python 3.7
 
 - Libraries: 
 You need to install the modules into your working directory as they'll be need to be included in a zip file if you want to use it on AWS
 
-..* Tweepy
+* Tweepy
 ```
 pip install tweepy --target <your directory>
 ```
 
-..* OpenCage for Python
+* OpenCage for Python
 ```
 pip install opencage --target <your directory>
 ```
-..* [AWS Account](https://aws.amazon.com/) - Needed for hosting
-..* [Twitter Developer Account](https://developer.twitter.com/) - Needed for Tweets (API Key needed)
-..* [Opencage Account](https://opencagedata.com/) - Needed for Geo-services (API Key needed)
+* [AWS Account](https://aws.amazon.com/) - Needed for hosting
+* [Twitter Developer Account](https://developer.twitter.com/) - Needed for Tweets (API Key needed)
+* [Opencage Account](https://opencagedata.com/) - Needed for Geo-services (API Key needed)
 
 While zipping them, make sure to zip the actual folder and not the directory above it. This can then be uploaded when you configure your Lambda function.
 
