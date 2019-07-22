@@ -3,7 +3,7 @@ An app that allows users to search twitter and display the tweets on a map.
 
 ## Table of contents
 * [About](#about)
-* [Technologies Used](#technologies)
+* [Technologies](#technologies)
 * [How It Works](#how-it-works)
 * [Running The Code Yourself](#running-the-code-yourself)
 * [Testing The Code.](testing-the-code)
