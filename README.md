@@ -130,6 +130,7 @@ One last setting you need to change is in the headers.
 ```
 
 For security, You need to replace * to your domain of the site hosting the website. 
+
 [Read more about Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
 
 ## Testing The Code.
