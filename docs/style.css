@@ -86,6 +86,7 @@ form input[type=button]{
 
 ul{
     text-decoration: none;
+    list-style:none;
 }
 
 ul a{
