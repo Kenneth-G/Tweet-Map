@@ -121,6 +121,17 @@ pip install opencage --target <your directory>
 
 While zipping them, make sure to zip the actual folder and not the directory above it. This can then be uploaded when you configure your Lambda function.
 
+One last setting you need to change is in the headers.
+```python
+'headers': {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        },
+```
+
+For security, You need to replace * to your domain of the site hosting the website. 
+[Read more about Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
+
 ## Testing The Code.
 
 ### Locally.
