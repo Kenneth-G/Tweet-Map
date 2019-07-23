@@ -32,7 +32,7 @@ The live version has a current cap of 20 but this is only a hard cap while the c
 - [unittest](https://docs.python.org/3/library/unittest.html) - Python Library for testing code. (Locally)
 
 ### Services Used:
-- [Twitter API](https://developer.twitter.com/) - For getting Tweets
+- [Twitter API](https://developer.twitter.com/) - For getting Tweets.
 - [OpenCage Geocoder](https://opencagedata.com/) - For checking users locations.
 
 ## How It Works.
@@ -70,7 +70,7 @@ if amount_to_get < (total_amount / 2) and total_amount >  5:
 The second block of code is to make sure that if there are only a couple of tweets left to get, we aren't flooding Twitters API with single tweet requests.
 
 
-With each Tweet that comes in, the location is checked and if they have one we call GeoCage
+With each Tweet that comes in, the location is checked and if they have one we call GeoCage:
 
 ```python
 geocoder.geocode(tweet.user.location, limit = 1, min_confidence = 8, no_annotations = 1)
