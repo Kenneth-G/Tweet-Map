@@ -71,6 +71,7 @@ function fetchData(term){
             }else{
                 for(var i = 0; i < data.length;i++){
                     addMarker(data[i]["tweet_location"]["lat"],data[i]["tweet_location"]["lng"],data[i]["tweet_text"],data[i]["tweet_screen_name"],data[i]["tweet_id"]);
+                    console.log(data);
                 }
             }
         })
