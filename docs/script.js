@@ -28,7 +28,8 @@ var layerGroup = L.layerGroup([]);
 function addMarker(lat, long, message, screen_name, id, i){
     var marker = L.marker([lat, long]).addTo(layerGroup);
     var tweet_url = "https://twitter.com/" + screen_name + "/status/" +id;
-    marker.bindPopup(message + " -" + '<a href="'+tweet_url+'"target="_blank">'+screen_name+'</a>'+ i);
+    marker.bindPopup(message + " -" + '<a href="'+tweet_url+'"target="_blank">'+screen_name+'</a>');
+    console.log("printing: " + i);
 }
 
 //# Form
