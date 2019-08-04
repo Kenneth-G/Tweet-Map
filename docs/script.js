@@ -25,10 +25,10 @@ function createMap(){
 }
 
 var layerGroup = L.layerGroup([]);
-function addMarker(lat, long, message, screen_name, id){
+function addMarker(lat, long, message, screen_name, id, i){
     var marker = L.marker([lat, long]).addTo(layerGroup);
     var tweet_url = "https://twitter.com/" + screen_name + "/status/" +id;
-    marker.bindPopup(message + " -" + '<a href="'+tweet_url+'"target="_blank">'+screen_name+'</a>');
+    marker.bindPopup(message + " -" + '<a href="'+tweet_url+'"target="_blank">'+screen_name+'</a>'+ i);
 }
 
 //# Form
@@ -70,8 +70,8 @@ function fetchData(term){
                 alert(data['Error'])
             }else{
                 for(var i = 0; i < data.length;i++){
-                    addMarker(data[i]["tweet_location"]["lat"],data[i]["tweet_location"]["lng"],data[i]["tweet_text"],data[i]["tweet_screen_name"],data[i]["tweet_id"]);
-                    console.log(data);
+                    addMarker(data[i]["tweet_location"]["lat"],data[i]["tweet_location"]["lng"],data[i]["tweet_text"],data[i]["tweet_screen_name"],data[i]["tweet_id"],i);
+                    console.log(data[i]);
                 }
             }
         })
