@@ -1,7 +1,7 @@
 # Tweet-Map
 An app that allows users to search Twitter and display the Tweets on a map.
 
-[Live Version](https://kenneth.gargan.ie/Tweet-Map/)
+~~Live Version~~ Due to Twitter's API changes. I am unable to host a live version.
 
 ## Table of contents
 * [About](#about)
